@@ -66,7 +66,7 @@ Rails.application.configure do
 		:authentication => :plain,
 		:user_name => ENV['SENDGRID_USERNAME'],
 		:domain => ENV['SENDGRID_PASSWORD'],
-		:enable_starttls_auto => auto
+		:enable_starttls_auto => true
 	}
 
   # Ignore bad email addresses and do not raise email delivery errors.
