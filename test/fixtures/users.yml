@@ -13,6 +13,13 @@ archer:
  activated: true
  activated_at: <%= Time.zone.now %>
 
+lana:
+ name: Sterling Lana
+ email: duch2@example.com
+ password_digest: <%= User.digest('password') %>
+ activated: true
+ activated_at: <%= Time.zone.now %>
+
 notactive:
  name: Not Active
  email: notactive@example.com
